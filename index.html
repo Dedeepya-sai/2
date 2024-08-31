@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel with Quotes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="carousel">
+        <div class="slide" onclick="displayQuote(0)">
+            <img src="image1.jpg" alt="Image 1">
+            <p class="quote">"The journey of a thousand miles begins with one step."</p>
+        </div>
+        <div class="slide" onclick="displayQuote(1)">
+            <img src="image2.jpg" alt="Image 2">
+            <p class="quote">"Believe you can and you're halfway there."</p>
+        </div>
+        <div class="slide" onclick="displayQuote(2)">
+            <img src="image3.jpg" alt="Image 3">
+            <p class="quote">"Success is not final, failure is not fatal: It is the courage to continue that counts."</p>
+        </div>
+    </div>
+    <div id="displayed-quote"></div>
+    <script src="script.js"></script>
+</body>
+</html>

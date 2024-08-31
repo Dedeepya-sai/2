@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.slide {
+    flex: none;
+    width: 300px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.quote {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#displayed-quote {
+    font-size: 1.2em;
+    color: #333;
+}
